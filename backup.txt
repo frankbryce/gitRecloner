@@ -1,0 +1,8 @@
+https://github.com/frankbryce/Jack.git
+https://github.com/frankbryce/NestedDictionary.git
+https://github.com/frankbryce/NinjectScopeTest.git
+https://github.com/cython/cython.git
+https://github.com/frankbryce/gitRecloner.git
+https://github.com/nose-devs/nose/
+https://github.com/numpy/numpy.git
+https://github.com/scipy/scipy.git
