@@ -5,7 +5,7 @@ from command import execCmd
 def backup(outFile):
   out = open(outFile, "w")
   try:
-    lsOut = execCmd(["ls", "..", "-a"])
+    lsOut = execCmd(["cmd", "/c", "dir", "..", "/b"])
     gitDirs = lsOut.split("\n")
     for gitDir in gitDirs:
       relDir = "../"+gitDir

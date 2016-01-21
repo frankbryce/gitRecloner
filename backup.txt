@@ -1,8 +1,9 @@
-https://github.com/frankbryce/Jack.git
-https://github.com/frankbryce/NestedDictionary.git
-https://github.com/frankbryce/NinjectScopeTest.git
-https://github.com/cython/cython.git
+https://github.com/cython/cython
+https://github.com/jeremylong/DependencyCheck
+https://github.com/github/gitignore.git
 https://github.com/frankbryce/gitRecloner.git
-https://github.com/nose-devs/nose/
-https://github.com/numpy/numpy.git
-https://github.com/scipy/scipy.git
+https://github.com/frankbryce/Jack
+https://github.com/frankbryce/NestedDictionary
+https://github.com/frankbryce/NinjectScopeTest
+https://github.com/numpy/numpy
+https://github.com/scipy/scipy
