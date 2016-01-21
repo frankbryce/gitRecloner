@@ -1,9 +1,11 @@
 from subprocess import call
+from command import execCmd
 
 def restore(inFile):
-  infile = open(inFile, "r")
+  infpt = open(inFile, "r")
   try:
-    for repoUrl in [url.rstrip('\n') for url in infile]:
-      execCmd(["git", "--work-tree="+relDir,"clone", repoUrl])
+    for repoUrl in [url.rstrip('\n') for url in infpt]:
+      noGitUrl = repoUrl.replace(".git","")
+      execCmd(["git", "clone", noGitUrl, "../"+noGitUrl.split("/")[-1]])
   finally:
-    infile.close()
+    infpt.close()
